@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+
+#main{
+    display: flex;
+    align-items: center;
+}
+
+
+.head{
+    position: absolute;
+    width: 95%;
+    z-index: 999;
+    padding: 15px 15px 0 30px;
+}
+
+.logoRestaurant,
+.socialmedia{
+    display: inline-block;
+}
+.logoRestaurant img {
+    width: 280px;
+}
+
+.socialmedia{
+    float: right;
+    margin-top: 47px;
+}
+    .socialmedia img{
+        width: 32px;
+        padding: 10px;
+    }
+
+.foodimage,
+.textBox{
+    float: left;
+    z-index: 1;
+}
+
+.foodimage{
+    width: 45%;
+}
+
+    .foodimage img{
+        width: 100%;
+        max-height: 100vh;
+        object-fit: cover;
+        
+    }
+
+.textBox{
+    padding-top: 120px;
+    width: 30%;
+    padding-left: 200px;
+}
+
+    .textBox img{
+        width: 25px;
+    }
+
+.textArea h2{
+    color: #29005F;
+    font-size: 48px;
+    padding-bottom: 20px;
+    line-height: 1.4;
+}
+
+    .textArea p{
+        width: 90%;
+        padding-bottom: 15px;
+    }
+
+input[type="email"] {
+    border: 1px solid #29005F;
+    border-radius: 10px;
+    color: #29005F;
+    padding: 12px;
+}
+
+input[type="button"] {
+    border: 1px solid #29005F;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #29005F;
+    margin-left: 15px;
+    padding: 12px 40px 12px 40px;
+}
+
+      form{
+        padding-top: 20px;
+      }
+
+.location,
+.contact{
+    padding-top: 80px;
+    width: 50%;
+    float: left;
+}
+
+
+    .location h5{
+       color: #29005F;
+    }
+        .location p{
+            font-size: 20px;
+        }
+
+    .contact h5{
+        color: #29005F;
+     }
+        .contact p{
+            font-size: 20px;
+        }
+
+
+@media all and (max-width: 480px) { 
+
+    html, body {
+        height: 100%;
+        width: 100%;
+    }
+
+    #main{
+        width: 100%;
+        display: block;
+    }
+
+    .foodimage{
+        width: 100%;
+    }
+
+    .foodimage img{
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .textBox {
+        padding-top: 30px;
+        width: 90%;
+        padding-left: 20px;
+    }
+
+    .textBox img{
+        width: 18px;
+    }
+
+    .textArea h2{
+        color: #29005F;
+        font-size: 35px;
+        padding-bottom: 20px;
+        line-height: 1.4;
+    }
+    
+        .textArea p{
+            width: 90%;
+            padding-bottom: 15px;
+        }
+
+    
+    form{
+        padding-top: 20px;
+        display: grid;
+    }
+
+        input[type="email"] {
+        border: 1px solid #29005F;
+        border-radius: 10px;
+        color: #29005F;
+        padding: 12px;
+        width: 80vw;
+        margin-bottom: 12px;
+    }
+
+    input[type="button"] {
+        border: 1px solid #29005F;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: bold;
+        background-color: #29005F;
+        margin-left: 0;
+        padding: 12px 40px 12px 40px;
+        width: 86vw;
+        margin-bottom: 40px;
+    }
+
+    .location,
+    .contact{
+        padding-top: 0px;
+        width: 50%;
+        float: none;
+}
+
+
+    .location h5{
+       color: #29005F;
+    }
+        .location p{
+            font-size: 14px;
+        }
+
+    .contact h5{
+        color: #29005F;
+     }
+        .contact p{
+            font-size: 14px;
+        }
+    
+
+    .head{
+        position: absolute;
+        padding-right: 0px;
+        right: 0px;
+        width: 95%;
+    }
+
+    .head .logoRestaurant{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .head .socialmedia{
+        padding-top: 1400px;
+        padding-left: 135px;
+    }
+
+    .socialmedia{
+        margin-top: 35px;
+        float: left;
+    }
+
+    .head .socialmedia img{
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+}
