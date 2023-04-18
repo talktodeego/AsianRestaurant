@@ -1,4 +1,4 @@
-# 🍜 Asian Restaurant Mockup 🍜
+# 🍜 Asian Restaurant 🍜
 
 To challenge myself, I have decided that in the next three months, I will be posting some challenges that I will undertake.
 
