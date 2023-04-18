@@ -1,13 +1,15 @@
 # 🍜 Asian Restaurant Mockup 🍜
 
-In ordering to challenging myself, I've decided that in the next 3 months I will be posting some challenges that I will be doing.
+To challenge myself, I have decided that in the next three months, I will be posting some challenges that I will undertake.
 
-To choose what I will be doing, i'm looking for cool and beautiful projects that are posting in [FIGMA Community](https://www.figma.com/community/) and I will be replicated then.
+To choose what I will be doing, I am looking for interesting and visually appealing projects that are posted in the [FIGMA Community](https://www.figma.com/community/), and I will replicate them.
 
-My first project was that minimalist, cool and beautiful project that was created and posted by "XIDE" on figma community [XIDE Hensui - Business Landing Page UI Template](https://www.figma.com/community/file/1227911463600022110/XIDE-Hensui---Business-Landing-Page-UI-Template)
+For my first project, I chose a minimalist, cool, and beautiful design that was created and posted by "XIDE" on the FIGMA Community [XIDE Hensui - Business Landing Page UI Template](https://www.figma.com/community/file/1227911463600022110/XIDE-Hensui---Business-Landing-Page-UI-Template)
 
 ## DESKTOP
-![Desktop Version]()
+![Desktop Version](/printProjects/desktop.jpg)
 
 ## MOBILE
-![Mobile Version]()
+<img src="/printProjects/mobile.png" width="300">
+
+If you wanna check the mockup version of the project on Figma, click in the link above and check this beautiful work by XIDE.
